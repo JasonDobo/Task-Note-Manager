@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Task Note Manager</string>
+    <string name="tab_one">TASK</string>
+    <string name="tab_two">NOTE</string>
+    <string name="tab_three">BACKUP</string>
+
+    <string name="date_column">Date</string>
+    <string name="note_column">NOTES</string>
+    <string name="task_column">TASKS</string>
+
+    <string name="addnote_button">ADD NOTE</string>
+    <string name="savenote_button">SAVE</string>
+    <string name="dismissnote_button">DISMISS</string>
+    <string name="deletenote_button">DELETE</string>
+
+    <string name="addtask_button">ADD</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="TaskHint">New Task</string>
+</resources>

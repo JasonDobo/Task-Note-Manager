@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout android:id="@+id/inputs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+        <EditText android:id="@+id/newTaskText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="@string/TaskHint"/>
+        <ImageButton android:id="@+id/addTaskButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_add"
+            android:contentDescription="@string/addtask_button"
+            android:text="@string/addtask_button"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <TableLayout android:id="@+id/data_table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#cdc9c9"
+        android:layout_below="@id/inputs">
+        <TableRow android:background="#cdc9c9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+            <TextView
+                android:text="@string/task_column"
+                android:background="#cdc9c9"
+                android:textColor="#000000"
+                android:textSize="16dip"
+                android:gravity="center"
+                android:layout_weight="3" />
+            <TextView
+                android:text="@string/date_column"
+                android:background="#cdc9c9"
+                android:textColor="#000000"
+                android:textSize="16dip"
+                android:gravity="center"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView android:id="@+id/myTaskListView"
+        android:layout_below="@id/data_table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+        android:focusable="false"
+        android:clickable="true">
+    </ListView>
+</RelativeLayout>
