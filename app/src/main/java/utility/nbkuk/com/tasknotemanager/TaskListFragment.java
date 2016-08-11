@@ -3,6 +3,7 @@ package utility.nbkuk.com.tasknotemanager;
 /**
  * Created by jason.dobo on 12/07/2016.
  */
+import android.app.FragmentManager;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -127,14 +128,40 @@ public class TaskListFragment extends Fragment implements View.OnClickListener, 
 
     @Override
     public void onClick(View view) {
+        if(view == getView().findViewById(R.id.addTaskButton)) {
+            android.support.v4.app.FragmentManager fm = getActivity().getSupportFragmentManager();
+            TaskDialogFragment editTaskDialog = new TaskDialogFragment();
+            editTaskDialog.show(getActivity().getSupportFragmentManager(), "Jason");
 
+//            // Get the users task
+//            EditText edittext = (EditText) getView().findViewById(R.id.newTaskText);
+//            String task = edittext.getText().toString();
+//            // Make sure its not empty
+//            if(!task.equals("")) {
+//                taskdb.addTask(task);
+//                edittext.setText(null);
+//            }
+        }
+
+        // Dismiss virtual keyboard
+        InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(getView().findViewById(R.id.newTaskText).getWindowToken(), 0);
+
+        // Redraw screen maybe should be more elegant
+        ListView myListView = (ListView) getView().findViewById(R.id.myTaskListView);
+        taskcursor = taskdb.getAllTasks();
+        taskadaptor.changeCursor(taskcursor);
+        myListView.setAdapter(taskadaptor);
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+
     }
 
+    public void onCheckChanged(View view) {
 
+    }
 
 }
