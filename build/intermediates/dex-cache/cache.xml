@@ -2,53 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="true"
+        jar="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
         revision="23.0.3"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_6df8801ef235fca4ae4494369e6f0b2d8393ecf7/classes.dex" />
+        <dex dex="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_87f66b0512f585af6dfb5458c84330e0eacba31c.jar" />
     </item>
     <item
-        jar="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.1_a0ab53b574277894cf9e5949508054c5a2206919/classes.dex" />
-    </item>
-    <item
-        jar="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.3"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_37924156d6238bfa3e72bbae326afb283e7d56b4/classes.dex" />
-    </item>
-    <item
-        jar="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
-        jumboMode="true"
+        jar="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
         revision="23.0.3"
         sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.0.1_21937a8ea7d6494cfc1bb379ceb58f8162c3c386/classes.dex" />
+        <dex dex="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_e919a409d945447d0b9dd1615cb248fb3d2a1fb9.jar" />
     </item>
     <item
-        jar="/Users/jason.dobo/Development/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
-        jumboMode="true"
+        jar="/Users/jasondobo/Development/android-tools/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
         revision="23.0.3"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_90e606bc0dfa400ffd15eed10d9c16778cdedebd/classes.dex" />
+        <dex dex="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_a405fbd7388367f33054653984605231bbe13ee4.jar" />
     </item>
     <item
-        jar="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="7609edc53e608988a990758968edc541be3eb692">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a772671e4dff0045931402129ebd714565b627f1/classes.dex" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_38872d691aef2848d6c3bfe98cf28bdb7414e13a.jar" />
     </item>
     <item
-        jar="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
         revision="23.0.3"
-        sha1="9ef8d1f322864836b673753e09d57993595f6ddd">
-        <dex dex="/Users/jason.dobo/Task-Note-Manager/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c9526ca76f54854f6b78563f3d5b8352bbac510e/classes.dex" />
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/jasondobo/code/Task-Note-Manager/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_75828c0c147333cf661dc74c05c504f462229a88.jar" />
     </item>
 
 </items>
